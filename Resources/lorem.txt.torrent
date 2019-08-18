@@ -1,9 +1,9 @@
 d
-    8:announce      33:https://192.168.1.6:6969/announce
-    7:comment       14:Torrent files.
-    10:created by   25:Transmission/2.92 (14714)
-    13:creation     datei1566048272e
-    8:encoding      5:UTF-8
+    8:announce       33:https://192.168.1.6:6969/announce
+    7:comment        14:Torrent files.
+    10:created by    25:Transmission/2.92 (14714)
+    13:creation date i1566048272e
+    8:encoding       5:UTF-8
     4:info
         d
             6:length        i446e
