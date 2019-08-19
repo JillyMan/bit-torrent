@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace BitTorrent
+namespace BitTorrent.Extensions
 {
     public static class StreamExtension 
     {
