@@ -6,19 +6,18 @@ using BitTorrent.Test;
 
 namespace BitTorrent
 {   
+#if TODO    
+    "BUG" occures when i`am 'try' read my 'lorem.txt.torrent', 
+        scipped comment section       
+#endif
+
     class Program
     {
         static void Main(string[] args)
         {
-#if TODO    
-    "BUG" occures when i`am 'try' read my 'lorem.txt.torrent', 
-        scipped comment section
-        
-        Validate(args);
-        var result = BEncoding.DecodeFile(args[0]);
-#endif
-            var bytes = new byte[] {54,23,15,13}.Select(x => x.ToString("x2")).ToArray();
-            Array.ForEach(bytes, x => System.Console.Write($"{x} "));
+            Validate(args);
+            TestRun();
+            var result = BEncoding.DecodeFile(args[0]);
         }
 
         static void TestRun() 

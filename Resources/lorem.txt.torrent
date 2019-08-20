@@ -1,15 +1,1 @@
-d
-    8:announce       33:https://192.168.1.6:6969/announce
-    7:comment        14:Torrent files.
-    10:created by    25:Transmission/2.92 (14714)
-    13:creation date i1566048272e
-    8:encoding       5:UTF-8
-    4:info
-        d
-            6:length        i446e
-            4:name          9:lorem.txt
-            12:piece length i32768e
-            6:pieces        20:E.6^P@ï¿½ï¿½A bOï¿½ï¿½ï¿½
-            7:private       i0e
-        e
-e
+d8:announce35:http://192.168.100.13:6969/announce7:comment8:Fuck you10:created by25:Transmission/2.92 (14714)13:creation datei1566324577e8:encoding5:UTF-84:infod6:lengthi446e4:name9:lorem.txt12:piece lengthi32768e6:pieces20:E.6^P@ÛÉA bO¸»Õ7:privatei0eee
