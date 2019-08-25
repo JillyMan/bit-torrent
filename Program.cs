@@ -1,23 +1,25 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using BitTorrent.Test;
 
 namespace BitTorrent
 {   
-#if TODO    
-    "BUG" occures when i`am 'try' read my 'lorem.txt.torrent', 
-        scipped comment section       
-#endif
-
     class Program
     {
         static void Main(string[] args)
         {
-            Validate(args);
+       //     Validate(args);
             TestRun();
-            var result = BEncoding.DecodeFile(args[0]);
+
+            var time = new DateTime(2019, 08, 25, 16, 28, 0);
+            System.Console.Write("Time: ");
+            System.Console.WriteLine(new DateTimeOffset(time).ToUnixTimeSeconds());
+            System.Console.WriteLine(DateTimeOffset.UtcNow.ToUnixTimeSeconds());
+   
+//            var result = BEncoding.DecodeFile(args[0]);
         }
 
         static void TestRun() 

@@ -13,6 +13,5 @@ namespace BitTorrent.Models
                 return Torrent.BytesToString(Size);
             }
         }
-
     }
 }
